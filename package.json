@@ -1,0 +1,24 @@
+{
+  "name": "sos-raid-planner",
+  "version": "1.0.0",
+  "description": "State of Survival Raid planner",
+  "main": "index.js",
+  "scripts": {
+    "register": "node ./deploy-commands.js",
+    "start": "npm run register && node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/twicemind/sos-raid-planner.git"
+  },
+  "author": "Thomas Herfort <thomas.herfort@br.de> (https://br.de/)",
+  "license": "UNLICENCED",
+  "bugs": {
+    "url": "https://github.com/twicemind/sos-raid-planner/issues"
+  },
+  "homepage": "https://github.com/twicemind/sos-raid-planner#readme",
+  "dependencies": {
+    "chokidar": "^3.5.3",
+    "discord.js": "^14.7.1"
+  }
+}
