@@ -1,2 +1,10 @@
-config.json
+config.js
+config.dev.js
+config.deploy.js
+config.deploy.dev.js
+deploy.commands.dev.js
 node_modules/
+docker.sh
+index.dev.js
+dist/
+docker.publish.sh

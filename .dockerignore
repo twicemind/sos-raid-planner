@@ -1,3 +1,10 @@
 Dockerfile
 node_modules
-config.json
+config.js
+config.dev.js
+config.deploy.js
+config.deploy.dev.js
+deploy.commands.dev.js
+docker.sh
+index.dev.js
+dist

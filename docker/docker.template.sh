@@ -5,7 +5,8 @@ docker rm raidar || :
 
 docker run --name raidar \
 --env TZ="Europe/Berlin" \
--v /Users/herfortt/git/private/twicemind/sos-raid-planner/config.json:/app/config.json \
+-v %your_config_location%/config.js:/app/src/config.js \
+-v %your_config_location%/config.deploy.js:/app/src/config.deploy.js \
 -v /etc/localtime:/etc/localtime:ro \
 --restart=unless-stopped \
--d raidar:alpine-1.0.0
+-d raraesh/raidar:alpine-latest
