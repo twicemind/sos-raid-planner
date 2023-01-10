@@ -8,3 +8,4 @@ docker.sh
 index.dev.js
 dist/
 docker.publish.sh
+.DS_Store

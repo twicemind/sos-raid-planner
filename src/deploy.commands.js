@@ -1,5 +1,5 @@
 import { REST, Routes } from 'discord.js'
-import { discord } from './config.deploy.js'
+import { discord } from './src/config.deploy.js'
 import fs from 'node:fs'
 import path from 'node:path'
 import * as url from 'url'

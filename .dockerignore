@@ -7,4 +7,5 @@ config.deploy.dev.js
 deploy.commands.dev.js
 docker.sh
 index.dev.js
-dist
+dist/
+.DS_Store
