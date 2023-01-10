@@ -3,7 +3,7 @@ export let discord = {
   }
   
 export let bot = {
-  prefix: 'radr-dev',
+  prefix: 'radr',
   activity: {
     name: 'with the Reservoir Raid',
     type: 'PLAYING'
@@ -13,7 +13,7 @@ export let bot = {
 export let buff = {
   content: {
     color: 'blue',
-    header: '__GOVENOR HONORS:__',
+    header: '__GOVERNOR HONORS:__',
     description: 'Sign up now for a buff from the Governor Honor list!',
     options: {
       cs: {

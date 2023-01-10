@@ -1,6 +1,6 @@
 {
   "name": "sos-raid-planner",
-  "version": "5.0.0",
+  "version": "5.1.1",
   "description": "State of Survival Raid planner",
   "type": "module",
   "exports": "./src/index.js",
